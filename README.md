@@ -1,25 +1,26 @@
-# specialized-garden
-(1) https://www.proflowers.com/blog/types-of-flowers 
-	-151 flowers with sun, soil, zones, height, blooms, features, difficult scrape
+11/14-Data scrape/Data Merge 
+11/17- Start Analysis of 3 main points (geo,seas,prod)
+11/19-scikit prediction start
+11/21-scikit prediction finalize (will be main page) 
+11/24-html + css for main and index 
+11/28- final css, html debug + Deployment to heroku
+12/1- Presentation!! Last Day 
 
-(2) https://www.seedsnow.com/collections/seed-finder/us-zone-1 
-	-example zone plants with price, scrape wont include zone
-
-(3) https://www.insider.com/foods-your-state-grows-2019-2 
-	- Popular Vegetable per state, easy scrape
-
-(4) https://www.purewow.com/food/best-produce-grown-in-every-state 
-	-popular produce(fruit and veg), easy scrape 
-
-(5) https://www.webstaurantstore.com/blog/1706/what-fruits-and-vegetables-are-in-season-in-your-region.html 
-	-fruits by region name only, lots of fruits and vegetables by season, timely scrape (4)
-
-
-Main layout: 
-
-Geographical location:
-  -Region or state 
-Type of product: 
-  -Flower, Fruit , Vegetable
-Season:
-  -Summer, Spring, Fall, Winter
+TO DO: 
+Data Scraping --
+Merge Data --
+Divide into 3 points and create analysis 
+Season: Summer, Spring, Fall, Winter --
+Product: Vegetables, Fruits, Flowers --
+Geographically: State, Region --
+Scikit prediction creation --
+Scikit prediction perfection -- 
+HTML (Index) --
+HTML (Main) --
+HTML (Geographical) --
+HTML (Product) --
+HTML (Season) --
+HTML (Data Explanation) --
+CSS (Fonts, colors) --
+CSS (hover-over main page, buttons, navigation bar) --
+Heroku deployment --
