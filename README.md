@@ -1,4 +1,5 @@
-#Schedule
+##Schedule
+
 11/14-Data scrape/Data Merge 
 
 11/17- Start Analysis of 3 main points (geo,seas,prod)
@@ -14,10 +15,6 @@
 12/1- Presentation!! Last Day 
 
 #TO DO: 
-Data Scraping --
-
-Merge Data --
-
 Divide into 3 points and create analysis 
 Season: Summer, Spring, Fall, Winter --
 Product: Vegetables, Fruits, Flowers --
