@@ -1,10 +1,10 @@
 ##Schedule
 
-11/14-Data scrape/Data Merge 
+OVerall- Analysis of 3 main points 
+by state=
+by season= 
+by planttype=
 
-11/17- Start Analysis of 3 main points (geo,seas,prod)
-
-11/19-scikit prediction start
 
 11/21-scikit prediction finalize (will be main page) 
 
