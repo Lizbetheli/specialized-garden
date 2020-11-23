@@ -13,6 +13,8 @@
 
     <body>
         <!-- Navigation -->
+
+        <div class = 'jumbotron card-image' id='home'>
         <div class="navigation">
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" style="background-color: green;" href="index.html">Gardening</a>
@@ -23,23 +25,15 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ml-auto">
 
-              <!-- Dropdown menu -->  
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Plots
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="State.html">State</a>
-                    <a class="dropdown-item" href="Season.html">Season</a>
-                    <a class="dropdown-item" href="Plant-Type.html">Plant Type</a>
-                    <!-- <a class="dropdown-item" href="wind.html">Wind Speed</a> -->
-                  </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="State.html">State</a>
                 </li>
-                <!-- End of Dropdown menu -->
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="Comparisons.html">Comparison</a>
-                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="Season.html">Season</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Plant-Type.html">Plant Type</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="Data.html">Data</a>
                 </li>
@@ -53,7 +47,7 @@
           <div class="row">
             <div class="col-lg-7 col-md-12">
               <!-- box 1 -->
-              <div class="box">
+              <div class="box box-4">
                 <h3 class="title">Summary</h3>
                 <hr>
                 <img src="Resources/assets/images/Fig3.png" class="vizualization rounded float-left" alt="Cloudiness Graph">
@@ -61,48 +55,29 @@
               
               </div>
             </div>
-            <div class="col-lg-3 col-md-12">
-              <!-- box 2 -->
-              <div class="box">
-                <h5 class="title">Visualizations</h5>
-                <hr>
-      
-      
+            <!-- <div class="col-lg-3 col-md-12">
+              <div class="box box-2">
                 <div class="container">
                   <div class="row" style="padding-bottom: 30px;">
-                    <div class="col-5">
-                      <a href="State.html">
-                        <img class="panel" src="Resources/assets/images/Fig1.png" alt="State">
-                      </a>
-                    </div>
                     <div class="col-5">
                       <a href="Season.html">
                         <img class="panel" src="Resources/assets/images/Fig2.png" alt="Season">
                       </a>
                     </div>
                   </div>
-      
+                </div>
+              </div>
+             <div class="col-lg-3 col-md-12">
+              <div class="box box-3">
+                <div class="container">
                   <div class="row" style="padding-bottom: 30px;">
                     <div class="col-5">
                       <a href="Plant-Type.html">
                         <img class="panel" src="Resources/assets/images/Fig3.png" alt="Plant-Type">
                       </a>
                     </div>
-                    <!-- <div class="col-5">
-                      <a href="wind.html">
-                        <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed (mph)">
-                      </a>
-                    </div> -->
-      
-      
                   </div>
-                </div>
-      
-      
-              </div>
-            </div>
-          </div>
-        </div>
+                </div> -->
 
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
             crossorigin="anonymous"></script>
@@ -110,6 +85,6 @@
             crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
             crossorigin="anonymous"></script>
-      
+  </div>    
 </body>
 </html>
