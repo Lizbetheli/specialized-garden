@@ -1,0 +1,7 @@
+import pandas as pd
+import plotly.express as px
+
+df = pd.read_csv('Resources/machine_learning')
+
+fig = px.line(df, x = 'Season', y = 'Plant Name', title='Apple Share Prices over time (2014)')
+fig.show()
