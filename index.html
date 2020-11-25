@@ -18,10 +18,149 @@
         <div class="navigation">
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" style="background-color: green;" href="index.html">Gardening</a>
-            <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+         <!--    <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
+
+          <div class="row">
+            <div class="input-field">
+              <select id="select">
+                <option value="Alabama">Alabama</option>
+                {% for grad in gradovi %}
+                <option value="Alaska">Alaska</option>
+                {% for grad in gradovi %}
+                <option value="Arizona">Arizona</option>
+                {% for grad in gradovi %}
+                <option value="Arkansas">Arkansas</option>
+                {% for grad in gradovi %}
+                <option value="California">California</option>
+                {% for grad in gradovi %}
+                <option value="Colorado">Colorado</option>
+                {% for grad in gradovi %}
+                <option value="Connecticut">Connecticut</option>
+                {% for grad in gradovi %}
+                <option value="Delaware">Delaware</option>
+                {% for grad in gradovi %}
+                <option value="Florida">Florida</option>
+                {% for grad in gradovi %}
+                <option value="Georgia">Georgia</option>
+                {% for grad in gradovi %}
+                <option value="Hawaii">Hawaii</option>
+                {% for grad in gradovi %}
+                <option value="Idaho">Idaho</option>
+                {% for grad in gradovi %}
+                <option value="Illinois">Illinois</option>
+                {% for grad in gradovi %}
+                <option value="Indiana">Indiana</option>
+                {% for grad in gradovi %}
+                <option value="Iowa">Iowa</option>
+                {% for grad in gradovi %}
+                <option value="Kansas">Kansas</option>
+                {% for grad in gradovi %}
+                <option value="Kentucky">Kentucky</option>
+                {% for grad in gradovi %}
+                <option value="Louisiana">Louisiana</option>
+                {% for grad in gradovi %}
+                <option value="Maine">Maine</option>
+                {% for grad in gradovi %}
+                <option value="Maryland">Maryland</option>
+                {% for grad in gradovi %}
+                <option value="Massachusetts">Massachusetts</option>
+                {% for grad in gradovi %}
+                <option value="Michigan">Michigan</option>
+                {% for grad in gradovi %}
+                <option value="Minnesota">Minnesota</option>
+                {% for grad in gradovi %}
+                <option value="Mississippi">Mississippi</option>
+                {% for grad in gradovi %}
+                <option value="Missouri">Missouri</option>
+                {% for grad in gradovi %}
+                <option value="Montana">Montana</option>
+                {% for grad in gradovi %}
+                <option value="Nebraska">Nebraska</option>
+                {% for grad in gradovi %}
+                <option value="Nevada">Nevada</option>
+                {% for grad in gradovi %}
+                <option value="New Hampshire">New Hampshire</option>
+                {% for grad in gradovi %}
+                <option value="New Jersey">New Jersey</option>
+                {% for grad in gradovi %}
+                <option value="New Mexico">New Mexico</option>
+                {% for grad in gradovi %}
+                <option value="New York">New York</option>
+                {% for grad in gradovi %}
+                <option value="North Carolina">North Carolina</option>
+                {% for grad in gradovi %}
+                <option value="North Dakota">North Dakota</option>
+                {% for grad in gradovi %}
+                <option value="Ohio">Ohio</option>
+                {% for grad in gradovi %}
+                <option value="Oklahoma">Oklahoma</option>
+                {% for grad in gradovi %}
+                <option value="Oregon">Oregon</option>
+                {% for grad in gradovi %}
+                <option value="Pennsylvania">Pennsylvania</option>
+                {% for grad in gradovi %}
+                <option value="Rhode Island">Rhode Island</option>
+                {% for grad in gradovi %}
+                <option value="South Carolina">South Carolina</option>
+                {% for grad in gradovi %}
+                <option value="South Dakota">South Dakota</option>
+                {% for grad in gradovi %}
+                <option value="Tennessee">Tennessee</option>
+                {% for grad in gradovi %}
+                <option value="Texas">Texas</option>
+                {% for grad in gradovi %}
+                <option value="Utah">Utah</option>
+                {% for grad in gradovi %}
+                <option value="Vermont">Vermont</option>
+                {% for grad in gradovi %}
+                <option value="Virgina">Virgina</option>
+                {% for grad in gradovi %}
+                <option value="Washington">Washington</option>
+                {% for grad in gradovi %}
+                <option value="West Virgina">West Virgina</option>
+                {% for grad in gradovi %}
+                <option value="Wisconsin">Wisconsin</option>
+                {% for grad in gradovi %}
+                <option value="{{Wyoming}}">Wyoming</option>
+                {% endfor %}
+              </select>
+            </div>          
+            <button class="btn" onclick="redirectToMyPage();"><i class="material-icons">Go</i></button>
+          </div>
+    <script>
+        function redirectToMyPage(){
+            location.href = document.getElementById('select').value;
+        }
+      </script>
+
+        <div class="row">
+            <div class="input-field">
+              <select id="select">
+                <option value="Autumn">Autumn</option>
+                {% for grad in gradovi %}
+                <option value="Fall">Fall</option>
+                {% for grad in gradovi %}
+                <option value="Spring">Spring</option>
+                {% for grad in gradovi %}
+                <option value="Summer">Summer</option>
+                {% for grad in gradovi %}
+                <option value="Winter">Winter</option>
+                {% for grad in gradovi %}
+
+                   </select>
+            </div>          
+            <button class="btn" onclick="redirectToMyPage();"><i class="material-icons">Go</i></button>
+          </div>
+    <script>
+        function redirectToMyPage(){
+            location.href = document.getElementById('select').value;
+        }
+      </script>
+
+
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ml-auto">
 
