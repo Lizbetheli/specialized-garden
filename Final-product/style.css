@@ -5,14 +5,16 @@ html,body {
 }
 
 #home {
-  height: 200vh;
+  height: 400vh;
   width: 100%;
   padding-top: 0%;
   background-image:url(https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
   background-size: cover;
+  background-repeat: repeat-y;
   /* margin: auto; */
   /* z-index: 0; */
 }
+
 /* Navbar */
 .navbar{
   max-height: 100px; 
@@ -57,7 +59,7 @@ a{
   margin-left: 20px;
   margin-right:20px;
   background-color: white;
-  height: 350px;
+  height: 550px;
 }
 
 .column {

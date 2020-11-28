@@ -17,11 +17,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="State.html">State</a>
-                        </li> -->
-                      <!--   <li class="nav-item">
-                            <a class="nav-link" href="Season_chart.html">Season Visualization</a> -->
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="PlantType_chart.html">Visualizations</a>
@@ -29,14 +25,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Data.html">Data</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="State.html">Map</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
         </div>
-<!--  <div class="container">
-          <div class="row 3">
-            <div class="col-5">
-              <div class="box box-4 text-center"> -->
+
         <div class="container-quest">
     <div class="jumbotron">
         <h1>Your Specialized Garden</h1>
@@ -59,7 +55,6 @@
                             <div class="input-field">
                                 <select id="StateSelection">
                                 <option value="Alabama">Alabama</option>
-                                <!-- {% for grad in gradovi %} -->
                                 <option value="Alaska">Alaska</option>
                                 <option value="Arizona">Arizona</option>
                                 <option value="Arkansas">Arkansas</option>
@@ -150,6 +145,72 @@
                         </div>
                     </div>
                 </div>
+                   <div class="column">
+                    <div class="section">
+                        <div class="section-title">
+                            <p>
+                                Select Sun Needs
+                            </p>
+                            <div class="input-field">
+                                <select id="Sun-Needs">
+                                    <option value="Partial Shade">Partial Shade</option>
+                                    <option value="Full Sun or Partial Shade">Full Sun or Partial Shade</option>
+                                    <option value="Full Sun">Full Sun</option>
+                                    <option value="Partial Shade or Full Shade">Partial Shade or Full Shade</option>
+                                    <option value="All Sun Types">All Sun Types</option>
+                                    <option value="Full Sun or Partial Shade">Full Sun or Partial Shade</option>
+                                    <option value="Full Shade">Full Shade</option>
+                                    <option value="Flexible">Flexible</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                     <div class="column">
+                    <div class="section">
+                        <div class="section-title">
+                            <p>
+                                Select Soil Needs
+                            </p>
+                            <div class="input-field">
+                                <select id="Soil-needs">
+                                    <option value="Well-drained">Well Drained</option>
+                                    <option value="Well-drained, High fertility">Well Drained, High fertility</option>
+                                    <option value="Damp">Damp</option>
+                                    <option value="Well-drained, Damp">Well Drained, Damp</option>
+                                    <option value="Dry">Dry</option>
+                                    <option value="Droughty">Droughty</option>
+                                    <option value="Flexible">Flexible</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                     <div class="column">
+                    <div class="section">
+                        <div class="section-title">
+                            <p>
+                                Select Features
+                            </p>
+                            <div class="input-field">
+                                <select id="features">
+                                    <option value="Tolerates heat">Tolerates Heat</option>
+                                    <option value="Tolerates frost">Tolerates Frost</option>
+                                    <option value="Non-invasive">Non Invasive</option>
+                                    <option value="Good for pressed flowers">Good for pressed Flowers</option>
+                                    <option value="Good for cut flowers">Good for cut Flowers</option>
+                                    <option value="Deer resistant">Deer Resistant</option>
+                                    <option value="Attracts bees">Attracts Bees</option>
+                                    <option value="Attracts butterflies">Attracts Butterflies</option>
+                                    <option value="Attracts beneficial insects">Attracts Beneficial Insects</option>
+                                    <option value="Attracts hummingbirds">Attracts Hummingbirds</option>
+                                    <option value="None">None</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             <button id="button" type="button" class="btn"> 
                     GO
             </button>
