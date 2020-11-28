@@ -78,13 +78,13 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 // console.log(statesData['features'])
 statesData['features'].forEach(feature=>{
-	feature['properties']['flowers']=statesFlowers[feature['properties']['name']];
+	feature['properties']['flower']=statesFlowers[feature['properties']['name']];
 });
 
 console.log(statesData['features']);
 
 function onEachFeature(feature, layer) {
-	layer.bindPopup('<p>'+feature.properties.flowers+'</p>');
+	layer.bindPopup('<p>'+feature.properties.flower+'</p>');
 }
 
 L.geoJson(statesData, {
