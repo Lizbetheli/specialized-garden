@@ -11,13 +11,13 @@ def index():
 	return render_template('index.html')
 @app.route('/Data')
 def Data():
-    # if request.method == 'POST':
-        # do stuff when the form is submitted
-
-        # redirect to end the POST handling
-        # the redirect can be to the same route or somewhere else
-        return redirect(url_for('index'))
-        return render_template('Data.html')
+	return render_template('Data.html')
+@app.route('/State')
+def State():
+	return render_template('State.html')
+@app.route('/PlantType_chart')
+def PlantType_chart():
+	return render_template('PlantType_chart.html')
 
 @app.route('/predict/')
 @app.route('/predict/<query_string>')

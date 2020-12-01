@@ -11,7 +11,19 @@
 </head>
 
 <body>
-    <p><a href="{{ url_for('Data') }}">Data</a></p>
+    <header>
+        <div class="container">
+            <!-- <h1 class="logo">Simple</h1> -->
+            <strong>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="{{url_for('Data') }}">Data</a></li>
+                    </ul>
+                </nav>
+            </strong>
+        </div>
+    </header>
+    <!-- <p><a href="{{ url_for('index') }}">Check out</a></p> -->
     <div class = 'jumbotron card-image' id='home'>
 
         <div class="navigation">
@@ -24,7 +36,7 @@
                             <a class="nav-link" href="PlantType_chart.html">Visualizations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Data.html">Data</a>
+                            <a class="nav-link" href="Data.html">Data</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="State.html">Map</a>
@@ -55,56 +67,6 @@
                             </p>
                             <div class="input-field">
                                 <select id="statesSelection">
-                                <!-- <option value="Alabama">Alabama</option>
-                                <option value="Alaska">Alaska</option>
-                                <option value="Arizona">Arizona</option>
-                                <option value="Arkansas">Arkansas</option>
-                                <option value="California">California</option>
-                                <option value="Colorado">Colorado</option>
-                                <option value="Connecticut">Connecticut</option>
-                                <option value="Delaware">Delaware</option>
-                                <option value="Florida">Florida</option>
-                                <option value="Georgia">Georgia</option>
-                                <option value="Hawaii">Hawaii</option>
-                                <option value="Idaho">Idaho</option>
-                                <option value="Illinois">Illinois</option>
-                                <option value="Indiana">Indiana</option>
-                                <option value="Iowa">Iowa</option>
-                                <option value="Kansas">Kansas</option>
-                                <option value="Kentucky">Kentucky</option>
-                                <option value="Louisiana">Louisiana</option>
-                                <option value="Maine">Maine</option>
-                                <option value="Maryland">Maryland</option>
-                                <option value="Massachusetts">Massachusetts</option>
-                                <option value="Michigan">Michigan</option>
-                                <option value="Minnesota">Minnesota</option>
-                                <option value="Mississippi">Mississippi</option>
-                                <option value="Missouri">Missouri</option>
-                                <option value="Montana">Montana</option>
-                                <option value="Nebraska">Nebraska</option>
-                                <option value="Nevada">Nevada</option>
-                                <option value="New Hampshire">New Hampshire</option>
-                                <option value="New Jersey">New Jersey</option>
-                                <option value="New Mexico">New Mexico</option>
-                                <option value="New York">New York</option>
-                                <option value="North Carolina">North Carolina</option>
-                                <option value="North Dakota">North Dakota</option>
-                                <option value="Ohio">Ohio</option>
-                                <option value="Oklahoma">Oklahoma</option>
-                                <option value="Oregon">Oregon</option>
-                                <option value="Pennsylvania">Pennsylvania</option>
-                                <option value="Rhode Island">Rhode Island</option>
-                                <option value="South Carolina">South Carolina</option>
-                                <option value="South Dakota">South Dakota</option>
-                                <option value="Tennessee">Tennessee</option>
-                                <option value="Texas">Texas</option>
-                                <option value="Utah">Utah</option>
-                                <option value="Vermont">Vermont</option>
-                                <option value="Virgina">Virgina</option>
-                                <option value="Washington">Washington</option>
-                                <option value="West Virgina">West Virgina</option>
-                                <option value="Wisconsin">Wisconsin</option>
-                                <option value="{{Wyoming}}">Wyoming</option> -->
                                 </select>
                             </div>
                         </div>
@@ -117,11 +79,7 @@
                                 Select Season
                             </p>
                             <div class="input-field">
-                                <select id="seasonsSelection">
-                                    <!-- <option value="Fall">Fall</option>
-                                    <option value="Spring">Spring</option>
-                                    <option value="Summer">Summer</option>
-                                    <option value="Winter">Winter</option> -->                   
+                                <select id="seasonsSelection">                   
                                 </select>
                             </div>
                         </div>
@@ -135,12 +93,6 @@
                             </p>
                             <div class="input-field">
                                 <select id="plantTypesSelection">
-                                    <!-- <option value="Animal Feed">Animal Feed</option>
-                                    <option value="Flower">Flower</option>
-                                    <option value="Fruit">Fruit</option>
-                                    <option value="Grain/Nut">Grain/Nut</option>
-                                    <option value="Other">Other</option>
-                                    <option value="Vegetable">Vegetable</option> -->
                                 </select>
                             </div>
                         </div>
@@ -154,14 +106,6 @@
                             </p>
                             <div class="input-field">
                                 <select id="sunNeedsSelection">
-                                   <!--  <option value="Partial Shade">Partial Shade</option>
-                                    <option value="Full Sun or Partial Shade">Full Sun or Partial Shade</option>
-                                    <option value="Full Sun">Full Sun</option>
-                                    <option value="Partial Shade or Full Shade">Partial Shade or Full Shade</option>
-                                    <option value="All Sun Types">All Sun Types</option>
-                                    <option value="Full Sun or Partial Shade">Full Sun or Partial Shade</option>
-                                    <option value="Full Shade">Full Shade</option>
-                                    <option value="Flexible">Flexible</option> -->
                                 </select>
                             </div>
                         </div>
@@ -175,13 +119,6 @@
                             </p>
                             <div class="input-field">
                                 <select id="soilNeedsSelection">
-                                    <!-- <option value="Well-drained">Well Drained</option>
-                                    <option value="Well-drained, High fertility">Well Drained, High fertility</option>
-                                    <option value="Damp">Damp</option>
-                                    <option value="Well-drained, Damp">Well Drained, Damp</option>
-                                    <option value="Dry">Dry</option>
-                                    <option value="Droughty">Droughty</option>
-                                    <option value="Flexible">Flexible</option> -->
                                 </select>
                             </div>
                         </div>
@@ -195,17 +132,6 @@
                             </p>
                             <div class="input-field">
                                 <select id="featuresSelection">
-                                    <!-- <option value="Tolerates heat">Tolerates Heat</option>
-                                    <option value="Tolerates frost">Tolerates Frost</option>
-                                    <option value="Non-invasive">Non Invasive</option>
-                                    <option value="Good for pressed flowers">Good for pressed Flowers</option>
-                                    <option value="Good for cut flowers">Good for cut Flowers</option>
-                                    <option value="Deer resistant">Deer Resistant</option>
-                                    <option value="Attracts bees">Attracts Bees</option>
-                                    <option value="Attracts butterflies">Attracts Butterflies</option>
-                                    <option value="Attracts beneficial insects">Attracts Beneficial Insects</option>
-                                    <option value="Attracts hummingbirds">Attracts Hummingbirds</option>
-                                    <option value="None">None</option> -->
                                 </select>
                             </div>
                         </div>
@@ -220,7 +146,7 @@
                 <button id='go'>Go</button>
             </div>
             <div class="col-sm-10 text-left">
-                <p id='recommendation'>Recommendaiton -test</p>
+                <p id='recommendation'>Recommendaiton</p>
             </div>
         </div>
     </div>
@@ -247,6 +173,8 @@
             </div>
         </div>
     </div>
+    {% block content %}
+    {% endblock %}
    
 </body>
 
