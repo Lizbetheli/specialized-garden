@@ -6,16 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Specialized-garden</title>
   <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
   <link rel="stylesheet" type="text/css" href="../static/css/style.css">
 </head>
-<style>
-    body{
-        background-image:url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-</style>
 <body>
     <!-- background image -->
     <div class = 'jumbotron card-image' id='home'>
@@ -33,20 +26,21 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{url_for('State')}}">Map</a>
                         </li>
-                       <!--  <li class="nav-item">
-                            <a class="nav-link" href="{{url_for('about')}}">about</a>
-                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="{{url_for('about')}}">about</a> -->
+                        </li> 
                     </ul>
                 </div>
             </nav>
         </div>
-        <!-- header -->
-        <div class="container-quest">
-             <div class="jumbotron">
-                <h1>Your Specialized Garden</h1>
-                <h2>Choose your preferences<br> to create a garden specific for you! </h2>
-            </div>
-        </div>
+    <!-- header -->
+    <div class="container">
+        <div class="jumbotron">
+           <h1>Your Specialized Garden</h1>
+           <h2>Choose your preferences<br> to create a garden specific for you! </h2>
+       </div>
+   </div>    
+    <div class="container-quest">
         <!-- button selections -->
         <div class="row">
             <div class="container1">
@@ -144,13 +138,19 @@
         <!-- next container for tips -->
         <div class="row">
             <div class="container2">
-                <div class="selection">
-                    <h1 class="output">RESULT
-                        <span></span>
-                    </h1>
-                    
-                    <div class="gardening-tip">
-                    Gardening Tips
+                    <div class="selection">
+                        <h1 class="output">GARDENING TIPS
+                            <span></span>
+                        </h1>
+                        <li class="tips">
+                            <a href="https://www.gardeningknowhow.com/edible">By Produce: https://www.gardeningknowhow.com/edible</a>
+                        </li>
+                        <li class="tips">
+                            <a href="https://www.bhg.com/gardening/gardening-by-region/">By Region: https://www.bhg.com/gardening/gardening-by-region/</a>
+                        </li>
+                        <li class="tips">
+                            <a href="https://gardengoodsdirect.com/blogs/news/ultimate-guide-to-seasonal-gardening">By Season: https://gardengoodsdirect.com/blogs/news/ultimate-guide-to-seasonal-gardening</a>
+                        </li>
                     </div>
                 </div>
             </div>
