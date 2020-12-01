@@ -9,6 +9,18 @@ CORS(app)
 @app.route('/')
 def index():
 	return render_template('index.html')
+@app.route('/Data')
+def Data():
+	return render_template('Data.html')
+@app.route('/State')
+def State():
+	return render_template('State.html')
+@app.route('/PlantType_chart')
+def PlantType_chart():
+	return render_template('PlantType_chart.html')
+@app.route('/about')
+def about():
+	return render_template('about.html')
 
 @app.route('/predict/')
 @app.route('/predict/<query_string>')
