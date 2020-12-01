@@ -18,6 +18,9 @@ def State():
 @app.route('/PlantType_chart')
 def PlantType_chart():
 	return render_template('PlantType_chart.html')
+@app.route('/about')
+def about():
+	return render_template('about.html')
 
 @app.route('/predict/')
 @app.route('/predict/<query_string>')

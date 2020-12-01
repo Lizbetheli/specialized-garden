@@ -11,17 +11,7 @@
 </head>
 
 <body>
-<!--  <header>
-        <div class="container">
-            <strong>
-                <nav>
-                    <ul class="menu">
-                        <li><a href="{{url_for('Data') }}">Data</a></li>
-                    </ul>
-                </nav>
-            </strong>
-        </div>
-    </header>  -->
+
     <div class = 'jumbotron card-image' id='home'>
 
         <div class="navigation">
@@ -31,14 +21,17 @@
 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="PlantType_chart.html">Visualizations</a>
+                            <a class="nav-link" href="{{url_for('PlantType_chart')}}">Visualizations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Data.html">Data</a>
+                            <a class="nav-link" href="{{url_for('Data')}}">Data</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="State.html">Map</a>
+                            <a class="nav-link" href="{{url_for('State')}}">Map</a>
                         </li>
+                       <!--  <li class="nav-item">
+                            <a class="nav-link" href="{{url_for('about')}}">about</a>
+                        </li> -->
                     </ul>
                 </div>
             </nav>
