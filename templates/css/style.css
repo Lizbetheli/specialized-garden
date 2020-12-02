@@ -1,4 +1,12 @@
 
+  #home {
+    height: 300vh;
+    width: 100%;
+    padding-top: 0%;
+    background-image:url(https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
   body{
     background-image:url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');>
     background-attachment: fixed;
@@ -76,7 +84,7 @@ a{
   }
 
 
-.btn{
+.button{
     background-color: rgb(134, 218, 134);
     color: green;
     text-align: center;
